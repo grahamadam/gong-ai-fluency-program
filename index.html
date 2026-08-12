@@ -251,6 +251,8 @@
     gap: 20px; flex-wrap: wrap;
   }
   footer p { font-size: 13px; color: #C9B6E9; }
+  .footer-brand { display: inline-flex; align-items: center; gap: 12px; }
+  .footer-brand img { height: 20px; width: auto; display: block; }
 
   /* ---------- responsive ---------- */
   @media (max-width: 880px) {
@@ -536,7 +538,7 @@
 
 <footer>
   <div class="wrap">
-    <p><strong style="color: #fff; font-family: var(--display); font-weight: 800;">gong<span style="color: var(--pink);">.</span></strong>&nbsp; AI Fluency Program. Built by Gong's GTM organization, for Gong's GTM organization.</p>
+    <p class="footer-brand"><img src="assets/gong-logo-white.png" alt="Gong" />AI Fluency Program.</p>
     <p>© 2026 Gong. Shared for informational purposes.</p>
   </div>
 </footer>
