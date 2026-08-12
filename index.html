@@ -131,6 +131,7 @@
   .rung {
     background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14);
     border-radius: 14px; padding: 20px 18px; color: #E9E1F8;
+    min-height: 216px;
   }
   .rung .lvl {
     font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
@@ -138,11 +139,11 @@
   }
   .rung h3 { font-family: var(--display); font-size: 19px; font-weight: 700; color: #fff; margin-bottom: 8px; }
   .rung p { font-size: 13px; line-height: 1.55; color: #DCCBF8; }
-  .rung-1 { min-height: 150px; }
-  .rung-2 { min-height: 175px; }
-  .rung-3 { min-height: 200px; }
-  .rung-4 { min-height: 225px; }
-  .rung-5 { min-height: 250px; background: linear-gradient(180deg, rgba(128,57,223,0.55), rgba(128,57,223,0.22)); border-color: rgba(253,99,254,0.55); }
+  .rung-1 { margin-bottom: 0; }
+  .rung-2 { margin-bottom: 30px; }
+  .rung-3 { margin-bottom: 60px; }
+  .rung-4 { margin-bottom: 90px; }
+  .rung-5 { margin-bottom: 120px; background: linear-gradient(180deg, rgba(128,57,223,0.55), rgba(128,57,223,0.22)); border-color: rgba(253,99,254,0.55); }
   .rung-5 .lvl { color: var(--teal); }
   .ladder-note { margin-top: 26px; font-size: 14px; color: #C9B6E9; max-width: 70ch; }
 
@@ -256,7 +257,7 @@
     .statband { grid-template-columns: repeat(2, 1fr); }
     .why-grid, .platform-grid, .results-grid { grid-template-columns: 1fr 1fr; }
     .ladder { grid-template-columns: 1fr; align-items: stretch; }
-    .rung { min-height: 0 !important; }
+    .rung { min-height: 0 !important; margin-bottom: 0 !important; }
     .fourd-grid { grid-template-columns: 1fr 1fr; }
     .cta { grid-template-columns: 1fr; padding: 38px 30px; }
   }
