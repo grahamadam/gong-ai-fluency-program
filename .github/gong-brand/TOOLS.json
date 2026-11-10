@@ -1,0 +1,17 @@
+{
+  "app": "ai-fluency",
+  "commit": "70cae9a32829df1146315007de6e325ef31aaafa",
+  "files": {
+    "brand-check.py": {
+      "bytes": 187638,
+      "sha256": "03358a16ae6783565b1a5a5927ccc91069d97b26cc950c7c0168576ab3a1af20"
+    },
+    "contrast.py": {
+      "bytes": 4581,
+      "sha256": "a4ce48a74a649477814bc697f3c4428716699cd317c90fb2ebebd8134fe0ba09"
+    }
+  },
+  "layer_version": "0.2.0",
+  "profile": "public",
+  "tag": "v0.2.0"
+}

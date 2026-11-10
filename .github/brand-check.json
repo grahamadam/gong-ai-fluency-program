@@ -1,0 +1,14 @@
+{
+  "layer": "gong-brand",
+  "scan": ["**/*.html", "**/*.css", "**/*.js", "**/*.md"],
+  "skip": [".github/**", "assets/**"],
+  "themes": ["light"],
+  "display_selectors": [],
+  "baseline": "brand-check.baseline.json",
+  "theme_files": [],
+  "flavour": [],
+  "allowed_identifiers": [],
+  "acronyms": [],
+  "names": [],
+  "hidden_names": ["Brainstorm", "uaia-explainer"]
+}
