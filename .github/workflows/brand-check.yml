@@ -23,3 +23,5 @@ jobs:
           fi
       - name: Page test
         run: python3 -I .github/check-page.py
+      - name: Tests for the page test
+        run: python3 -I -B -m unittest discover -s .github/tests
