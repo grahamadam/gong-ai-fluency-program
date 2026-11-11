@@ -1,0 +1,42 @@
+{
+  "about": "Brand findings accepted on the day the check was adopted. CI fails only on new ones. brand-check.py --update-baseline only lowers it; --allow-raise is needed to add to it.",
+  "version": 1,
+  "findings": [
+    {
+      "file": "index.html",
+      "rule": "emoji-icon",
+      "key": "\u2705",
+      "count": 1
+    },
+    {
+      "file": "index.html",
+      "rule": "emoji-icon",
+      "key": "\ud83c\udfaf",
+      "count": 1
+    },
+    {
+      "file": "index.html",
+      "rule": "emoji-icon",
+      "key": "\ud83c\udfc6",
+      "count": 1
+    },
+    {
+      "file": "index.html",
+      "rule": "emoji-icon",
+      "key": "\ud83d\udcca",
+      "count": 1
+    },
+    {
+      "file": "index.html",
+      "rule": "emoji-icon",
+      "key": "\ud83d\udd13",
+      "count": 1
+    },
+    {
+      "file": "index.html",
+      "rule": "emoji-icon",
+      "key": "\ud83e\udded",
+      "count": 1
+    }
+  ]
+}
